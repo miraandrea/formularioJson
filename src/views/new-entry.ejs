@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='css/new-entry.css'>
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="formulario" class="form-group">
+        <h1>Formulario</h1>
+        <div id="formContent">
+            <form method="post" target="/new-entry">
+                <label for="name">Nombre Completo</label>
+                <input type="text" class="form-control input-lg" name="name" id="name" required>
+                <label for="document">Documento Identidad</label>
+                <input type="text"  class="form-control input-lg" name="document" id="document" required>
+                <label for="phone">Telefono</label>
+                <input type="text"  class="form-control input-lg" name="phone" id="phone" required>
+
+                <input type="submit" value="Guardar">
+                <a href="/" class="btn">Ver listado</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
